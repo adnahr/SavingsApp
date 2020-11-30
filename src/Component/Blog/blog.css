@@ -1,0 +1,28 @@
+#blog_text{
+    background-color: transparent;
+    padding: 10px;
+    margin: 15px;
+    width: 25vw;
+}
+
+#blogbtn{
+    margin-left: 23vw;
+}
+
+.blogs {
+    margin: 35px auto;
+}
+
+.blogTitle{
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+}
+
+.blogText{
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif ;
+    font-size: 15px;
+    line-height: 2;
+    margin: 25px;
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+h1 {
+    color: rgb(31, 32, 29);
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+}
+label {
+    color: rgb(62, 64, 59);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px;
+}
+
+input {
+    background-color: transparent;
+    color: rgb(93, 94, 92);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid rgb(62, 64, 59);
+    padding: 10px;
+    margin: 15px;
+    width: 25vw;
+}
+
+button {
+    background-image: linear-gradient(to bottom right, rgb(143, 50, 168),rgb(232, 23, 96));
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    width: 10vw;
+}
+
+form {
+    margin: 50px;
+}
+
+
+#RegisterPage {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+#img {
+    margin-left: 10vw;
+    width: 40vw;
+    background-image:  linear-gradient(to bottom right, rgba(143, 50, 168, 0.5),rgba(232, 23, 96, 0.5)), url(../Images/registration.jpg);
+    background-size: cover;
+}
+
+
+#forms{
+    background-color: white;
+}
+

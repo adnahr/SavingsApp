@@ -1,0 +1,47 @@
+#list {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    padding: auto 20px;
+}
+
+
+.item h1{
+    margin: auto 3ovw;
+}
+
+#list .title{
+    border-bottom: 1px solid black;
+}
+
+#first,#second{
+    width: 50vw;
+    height: 70vh;
+}
+
+.closebtn {
+    color: #AA9;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+.closebtn:hover {
+    color: #AC2500;
+}
+
+.saving {
+    width: 100vw;
+    text-align: center;
+    height: 20vh;
+    background-color: rgb(143, 22, 86);
+    padding-top: 50px;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}

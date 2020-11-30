@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+#hp{
+  background-color: white;
+}
+#homePageBegin{
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgba(143, 50, 168, 0.5),rgba(232, 23, 96, 0.2)),url("../Images/backgrounf.jpg");
+    background-size: cover;
+  }
+  .nvb {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+  }
+  
+  .navlink, .nvb .nvbcollapse>.navnav>.navlink {
+    color: rgb(216, 215, 196);
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 3vw;
+    text-decoration: none;
+  }
+  
+  .pc{
+      font-size: 22px;
+      color: rgb(216, 215, 196);
+      font-family: 'Monoton', cursive;
+  }
+  .nvb .nvbcollapse>.navnav>.navlink:hover {
+    color: rgb(195, 22, 201)
+  }
+  
+  .nvb .nvbcollapse>.navnav>.navlink.active {
+    color: rgb(195, 22, 201);
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+#h2 {
+  visibility: hidden;
+}
+#advices{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+#gotolist{
+  color: black;
+  background-color: rgb(235, 213, 213);
+  padding: 10px;
+}
+
+ul{
+  list-style-image: url("../Images/Logos/arrow.png");
+}
+
+li{
+  padding: 15px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+#leftofAdv{
+  width: 50vw;
+  margin: 50px;
+}
+#rigthofAdv{
+  margin: 50px;
+}
+
+#background2{
+  background-image: linear-gradient(to bottom right, rgba(143, 50, 168, 0.2),rgba(232, 23, 96, 0.2)), url("../Images/background2.jpg");
+  height: 80vh;
+  background-size: cover;
+}
+
+
+#blogs{
+  text-align: center;
+  margin: 50px;
+  font-family: 'Playfair Display', serif;
+}
+#blogs p{
+  margin: 50px 30vw;
+  text-align: justify;
+  padding: 10px;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+}
+#blogs h1{
+  font-size: 30px;
+}
+
+#quote{
+  background-color: rgb(243, 203, 203);
+  text-align: center;
+  padding: 100px;
+  font-size: 30px;
+}
+#quote-text{
+  font-family: 'Great Vibes', cursive;
+  font-size: 35px;
+}
+@media only screen  and (max-width:  900px) { 
+   #gotolist {
+    font-size: 10px;
+  }
+  #img{
+    width: 20px;
+  }
+  .nav1{
+    visibility: hidden;
+  }
+  #h2{
+    visibility: visible;
+    margin-top: -30px;
+  }
+  .navlink, .text{
+    font-size: 15px;
+  }
+
+}

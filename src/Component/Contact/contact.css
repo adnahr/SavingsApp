@@ -1,0 +1,83 @@
+
+body{
+    background-color: rgb(235, 245, 239);
+}
+#contact-img {
+    width: 100vw;
+    height: 400px;
+}
+
+#contact-img {
+    width: 100vw;
+    height: 400px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../Images/background3.v4.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-position: center center;
+	background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -65px; 
+}
+
+#contact {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 4em;
+    position: absolute;
+    left: 50%;
+    top: 30vh;
+    transform: translate(-50%, -50%);
+}
+
+#contact-main {
+    display: flex;
+}
+
+#h-informations {
+    position: relative;
+    top: 65vh;
+    left: 10vw;
+    color: #333333;
+    font-weight: 900;
+    font-size: 1.7em;
+    letter-spacing: 1.8px;
+}
+
+#informations { 
+    position: relative;
+    top: 70vh;
+    left: 10vw;
+}
+
+#name, #address, #address2, #phone, #mail {  
+    /*border: 2px solid blue;*/
+    display: flex;
+}
+
+#user-icon, #uni-icon, #home-icon, #phone-icon, #mail-icon {
+    height: 2.5em;
+}
+
+#name-text, #address-text, #phone-text, #mail-text {
+    color: #333333;
+    margin-left: 1em;
+    font-size: 1em;
+    letter-spacing: 1.8px;
+}
+
+.small-text {
+    color: #AAAAAA;
+}
+
+
+
+
+
+
+
+
+
